@@ -1,0 +1,285 @@
+.sidebar {
+    flex: 3;
+    margin: 20px;
+    padding-bottom: 30px;
+    background: rgb(235, 234, 234);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.sidebarItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 2px 2px #777;
+    width: 250px;
+    height: 250px;
+}
+
+.sidebarItemOne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 2px 2px #777;
+    width: 250px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin-top: -100px;
+}
+
+.redBar {
+    background-color: rgb(247, 74, 43);
+    width: 250px;
+    height: 1500px;
+    margin-top: 0px;
+}
+
+.redBarIcon {
+    border-radius: 50%;
+    border: 4px solid white;
+    width: 80px;
+    height: 80px;
+    background-image: url(../john.jpeg);
+    justify-content: center;
+    object-fit: fill;
+    background-size:contain;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.redBarImg {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: 500px;
+}
+
+.sidebarItemTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 2px 2px #777;
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    height: 500px;
+    justify-content: center;
+    margin: 40px;
+    border-top: 4px solid red;
+}
+
+.sideBarTwoIcon {
+    border-radius: 50%;
+    display: flex;
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-image: url(../john.jpeg);
+    object-fit: fill;
+    background-size:contain;
+    margin-top: -350px;
+    margin-left: -500px;
+    position: absolute;
+}
+
+.sideBarTwoDesc {
+    margin-top: -150px;
+    margin-left: -300px;
+}
+
+.sideBarThreeDesc {
+    margin-top: 0px;
+    margin-left: -300px;
+    color:#777;
+    font-size: 8px;
+}
+
+.location {
+    color:rgb(161, 156, 156);
+    font-size: 12px;
+    margin-left: -460px;
+    margin-top: 80px;
+}
+
+.locationDesc {
+    margin-top: 80px;
+    margin-left: -150px;
+}
+
+.coder {
+    color: rgb(33, 79, 179);
+    font-size: 15px;
+}
+
+.locationIcon {
+    color: rgb(47, 255, 57);
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.verticalDots {
+    display: flex;
+    margin-top: -35px;
+    margin-left: 650px;
+    font-size: 20px;
+}
+
+.sideIconMessage {
+    color: white;
+    background-color: red;
+    margin-left: 600px;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.sideIconBadge {
+    color: white;
+    background-color: green;
+    margin-right: 0px;
+}
+
+.sidebarItemThree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 2px 2px #777;
+    background-color: #ffffff;
+    width: 700px;
+    height: 300px;
+    margin-top: -200px;
+}
+
+hr {
+    width: 250px;
+}
+
+.titleDesc {
+    padding-bottom: 3px;
+}
+
+.titleFollower {
+    font-weight: 500;
+}
+
+.titleTag {
+    padding: -25px;
+}
+
+.sidebarItemOne > p{
+    color:rgb(247, 74, 43)
+}
+
+
+.sidebar > img {
+    border-radius: 50%;
+}
+
+.sidebarItem > p {
+    padding: 30px;
+}
+
+.sidebarList{
+    list-style: none;
+    margin-right: 490px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.sidebarListItem {
+    display: flex;
+    width: 50%;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.sidebarSocial {
+    border-radius: 50%;
+}
+
+.sidebarIcon {
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.lorem {
+    justify-content: center;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.headerDiv {
+    align-items: center;
+    box-shadow: 1px 2px 2px #777;
+    background-color: rgb(255, 255, 255);
+    border-top: 4px red;
+    width: 700px;
+    height: 50px;
+    justify-content: center;
+    margin: 10px;
+    padding: 0px;
+}
+
+.sideBarThreeIcon {
+    border-radius: 50%;
+    display: flex;
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-image: url(../w.jpg);
+    object-fit: fill;
+    background-size:contain;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.sidebarTitle {
+    margin-top: 120px;
+    width: 80%;
+    font-size: 15px;
+    color: #222;
+    font-weight: 800;
+    line-height: 20px;
+    text-align: center;
+}
+
+.titleBar {
+    padding: 0px;
+    font-size: 10px;
+    color: rgb(206, 201, 201);
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.sidebarSecondTitle {
+    margin-top: 10px;
+    width: 80%;
+    font-size: 14px;
+    color: rgb(131, 131, 131);
+    font-weight: 200;
+    line-height: 20px;
+    text-align: center;
+}
+
+.sidebarsignup {
+    margin-top: 30px;
+    width: 80%;
+    font-size: 14px;
+    color: rgb(131, 131, 131);
+    font-weight: 200;
+    line-height: 20px;
+    text-align: center;
+}
+
+.sidebarLearnmore {
+    margin-top: 0px;
+    width: 80%;
+    font-size: 14px;
+    color: rgb(230, 70, 70);
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
